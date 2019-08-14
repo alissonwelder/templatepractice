@@ -1,0 +1,334 @@
+body{
+margin: 0;
+  font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+}
+header {
+align-items: center;
+background-color: rgb(44, 62, 80);
+box-sizing: border-box;
+color: rgb(33, 37, 41);
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+font-size: 16px;
+font-weight: 700;
+justify-content: flex-start;
+left: 0px;
+line-height: 24px;
+padding-bottom: 24px;
+padding-left: 16px;
+padding-right: 16px;
+padding-top: 24px;
+position: fixed;
+right: 0px;
+text-align: left;
+text-transform: uppercase;
+top: 0px;
+	
+}
+
+.cabecalho{
+
+display:flex;
+justify-content:space-between;
+background: rgb(44, 62, 80);
+    
+    
+}
+.cabecalho .logo{
+    display:flex;
+	align-items:center;
+    color: white;
+    font-size: 21pt;
+    text-transform: uppercase;
+    padding-left: 100px;
+    
+}
+
+.menu ul{
+    
+    display: flex;
+    font-size: 15px;
+    list-style: none;
+    padding-right: 115px;
+    
+ 
+}
+.menu ul li{
+    text-align: right;
+    color: white;
+}
+.menu ul li a{
+    font-size: 12pt;
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+}
+.menu ul li a:hover{
+    color: rgb(26, 188, 156);
+}
+.container{
+    background-color: rgb(26, 188, 156);
+    width: 100%;
+    height: 650px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+ 
+}
+.container .avatar img{
+
+width:240px;
+height: 240px;
+padding-left: 140px;
+padding-top: 100px;
+
+}
+
+.container h1{
+  font-size: 40pt;
+  color: white;
+  
+    
+}
+.conteudo{
+    display:flex;
+    align-items: center;
+    
+}
+
+.conteudo .fas{
+    
+    color: #fff;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: -50px;
+}
+
+.conteudo .traco1, .traco2{
+    background-color: #fff;
+    width: 90px;
+    height: 4px;
+    margin-top: -50px;
+}
+.graphic h2{
+    color:#FFF;
+    font-size: 20pt;
+    
+
+}
+.portifolio {
+    width: 100%;
+    height: 170px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.portifolio h3{
+    color: rgb(44, 62, 80);
+    text-transform: uppercase;
+    font-size: 30pt;
+}
+.conteudo-portifolio{
+    display:flex;
+    align-items: center;
+    
+}
+.conteudo-portifolio .fas{
+    
+    color: rgb(44, 62, 80);
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: -50px;
+}
+
+.conteudo-portifolio .traco3, .traco4{
+    background-color: rgb(44, 62, 80);
+    width: 90px;
+    height: 4px;
+    margin-top: -50px;
+}
+.container-imagens{
+    width: 100%;
+    height: 600px;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    
+}
+
+.container-imagens img{
+    
+    width: 360px;
+    height: 240px;
+    border-radius: 10px;
+    margin: 10px;
+    
+
+}
+
+.about{
+    background-color: rgb(26, 188, 156);
+    width: 100%;
+    height: 600px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.about h2{
+    color:#FFF;
+    text-transform: uppercase;
+    font-size: 40pt;
+    padding-top: 20px;
+
+}
+.about .conteudo-about{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.about .fas{
+    
+    color: #fff;
+    margin-top: -20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: -50px;
+}
+
+.about .traco5, .traco6{
+    background-color: #fff;
+    width: 90px;
+    height: 4px;
+    margin-top: -50px;
+}
+.coluna{
+    display: flex;
+}
+.coluna p{
+    font-size: 15pt;
+    color: white;
+}
+.colunadir{
+    width: 350px;
+    height: 180px;
+    margin-right: 10px
+}
+.colunaesq{
+    width: 350px;
+    height: 180px;
+    margin-left: 10px;
+}
+.about .download button{
+    
+    width: 226px;
+    height: 66px;
+    background-color: rgb(26, 188, 156);
+    color: #FFF;
+    font-size: 15pt;
+    border-radius: 10px;
+    border-color: #FFF;
+    margin-top: 80px;
+    
+}
+.about .download button a{
+    text-decoration: none;
+    color: #FFF;
+}
+
+.about .download:hover button{
+    background-color: #FFF;
+    color: rgb(26, 188, 156);
+    cursor: pointer;
+}
+.about .download:hover button a{
+    background-color: #FFF;
+    color: rgb(26, 188, 156);
+}
+
+.contact {
+    width: 100%;
+    height: 700px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.contact h3{
+    color: rgb(44, 62, 80);
+    text-transform: uppercase;
+    font-size: 30pt;
+}
+.contact-conteudo{
+    display:flex;
+    align-items: center;
+    
+}
+.contact-conteudo .fas{
+    
+    color: rgb(44, 62, 80);
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: -50px;
+    
+}
+
+.contact-conteudo .traco7, .traco8{
+    background-color: rgb(44, 62, 80);
+    width: 90px;
+    height: 4px;
+    margin-top: -50px;
+}
+
+form .meuform{
+    background-color: rgb(44, 62, 80);
+}
+input, textarea {
+    width: 200px;
+    padding: 10px;
+    color: black;
+    margin-left: 20px;
+    border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid;
+}
+ 
+input:hover, textarea:hover, input:focus, textarea:focus {
+    border-color: #000066;
+    box-shadow: 5px 0px 9px rgb(44, 62, 80);;
+    background-color: rgb(26, 188, 156);
+    color: black;
+    font-weight: bold;
+}
+ 
+.submit input {
+    background-color: rgb(26, 188, 156);
+    height: 40px;
+    width: 100px;
+    font-weight: bold;
+    border-radius: 5px;
+    border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid;
+    color: black;
+}
+ 
+textarea {
+    width: 400px;
+    height: 120px;
+    line-height: 20px;
+    max-width: 400px;
+}
+ 
